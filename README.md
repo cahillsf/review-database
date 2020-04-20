@@ -1,4 +1,12 @@
 # review-database
+
+table_creation_assignment4.sql contains all the statements to create the database tables, the order of the table creation statements should be as listed in the file from top to bottom
+
+insertion_statements.sql contains all the statements to populate the tables with sample data and should be run in order as listed in the file from top to bottom
+
+select_statements.sql contains a series of SELECT all statements to view all the tables and records as created in the database
+
+
 A sample of a paper review database implemented in MySQL which adheres to the following requirements:
 
 ■ Authors of papers are uniquely identified by e-mail id. First and last names
