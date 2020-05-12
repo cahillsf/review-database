@@ -7,6 +7,6 @@ The program exectutes 5 SQL queries against the database: <br/>
 Author.FirstName, Author.LastName<br/>
 ● getPositiveReviews(Connection con, int paperId):  This method accepts two parameters: the database connection and the paper ID we're searching for positive reviews for. Current metric for a recommendation to publish is a MeritScore > 5.  The query returns the following data (columns): All columns from the
 Review table.<br/>
-● getPaperCount(Connection con):  Accepts only one parameter, the connection, and prints a count of all the records in the paper table. <br/>
-● submitPaper(Connection con, int id, String title, String description, String fileName, String authorEmail, String newFirstN, String newLastN)Accepts the connection, then the seven column values needed to create a new record in both the Author and Paper tables.<br/>
+● getPaperCount(Connection con):  accepts only one parameter, the connection, and prints a count of all the records in the paper table. <br/>
+● submitPaper(Connection con, int id, String title, String description, String fileName, String authorEmail, String newFirstN, String newLastN): accepts the connection and the seven column values needed to create a new record in both the Author and Paper tables.<br/>
 ● deleteAuthor(Connection con, String authorId): accepts two parameters, the connection and the primary key of an author we will attempt to delete.  This query fails as it violates a foreign key constraint and we have not configured the database to cascade the deletion.
